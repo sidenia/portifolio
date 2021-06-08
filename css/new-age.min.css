@@ -936,7 +936,7 @@ footer a:hover{
     footer .whatswidget-button-wrapper {
         position: fixed !important;
         bottom: 15px !important;
-        right: 15% !important;
+        right: 5% !important;
         overflow-x: hidden;
     }
     
