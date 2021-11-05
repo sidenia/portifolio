@@ -29,7 +29,7 @@
         "url": "https://github.com/StartBootstrap/startbootstrap-new-age.git"
     },
     "dependencies": {
-        "@fortawesome/fontawesome-free": "5.15.1",
+        "@fortawesome/fontawesome-free": "5.15.4",
         "bootstrap": "4.5.3",
         "jquery": "3.5.1",
         "jquery.easing": "^1.4.1",
