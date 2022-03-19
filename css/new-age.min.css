@@ -242,6 +242,20 @@ section.features .feature-item i{
     text-align: justify;
 }
 
+/*Stacks*/
+.bg-primary .d-flex .list-group .list-group-item {
+    background-color: transparent;
+    border: none;
+}
+
+.bg-primary .d-flex .list-group .list-group-item svg {
+    width: 70px;
+    height: 70px;
+}
+
+.bg-primary .d-flex .list-group .list-group-item svg:hover {
+
+}
 
 /*Projetos cards*/
 
