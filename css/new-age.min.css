@@ -50,7 +50,7 @@ a {
 
  section h2 {
      font-size:50px;
-     color: #d9d9d9;
+     color: #39ff14;
      font-weight: 800px;
 }
 
@@ -174,7 +174,7 @@ section.download{
 
 section.download h2{
     font-family:'Homemade Apple', cursive;
-    margin-top:0; color: #fcfdfd;
+    margin-top:0; color: #39ff14;
     font-size: 50px;
 }
     
@@ -229,7 +229,7 @@ section.features .feature-item i{
     font-size:80px;
     display:block;
     margin-bottom:15px;
-    background:linear-gradient(#39ff14, #8c52ff);
+    background:linear-gradient(#39ff14, #222);
     -webkit-background-clip:text;
     background-clip:text;
     -webkit-text-fill-color:transparent
@@ -258,11 +258,8 @@ section.features .feature-item i{
 }
 
 .bg-contact {
-    background-image: linear-gradient(rgb(0, 0, 0), rgb(52, 0, 155));   
-}
-
-.bg-stacks {
-    background-image: linear-gradient(rgb(0, 0, 0), rgb(52, 0, 155));   
+    /* background-image: linear-gradient(rgb(0, 0, 0), rgb(52, 0, 155)); */
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(32, 32, 32));   
 }
 
 /*Projetos cards*/
@@ -290,7 +287,7 @@ section.features .feature-item i{
   
 .container .card .face.face1{
     position: relative;
-    background: #333;
+    background: #000;
     display: flex;
     justify-content: center;
     align-content:center;
@@ -302,14 +299,14 @@ section.features .feature-item i{
 .container .card:hover .face.face1{
     transform: translateY(0);
     box-shadow:
-      inset 0 0 60px whitesmoke,
-      inset 20px 0 80px #f0f,
-      inset -20px 0 80px #0ff,
-      inset 20px 0 300px #39ff14,  
-      inset -20px 0 300px #0ff,
-      0 0 50px #fff,
-      -10px 0 80px #f0f,
-      10px 0 80px #0ff;
+    inset 0 0 60px whitesmoke,
+    inset 20px 0 80px #ffffff,
+    inset -20px 0 80px #39ff14,
+    inset 20px 0 300px #ffffff,  
+    inset -20px 0 300px #39ff14,
+    0 0 50px #39ff14,
+    -10px 0 80px #ffffff,
+    10px 0 80px #39ff14;
      
   }
   
@@ -348,7 +345,7 @@ section.features .feature-item i{
      justify-content: center;
      padding: 20px;
     box-sizing: border-box;
-    box-shadow: 0 20px 50px rgba(94, 23, 235, 0.5);
+    box-shadow: 0 20px 50px rgba(57, 255, 20, 0.5);
     transform: translateY(-100px);
   }
   
@@ -448,7 +445,7 @@ section.cta .overlay{
   section.cv h2{
     font-family:'Homemade Apple', cursive;
     margin-top:3rem; 
-    color: #fcfdfd;
+    color: #39ff14;
     font-size: 50px;
 }
 
@@ -459,7 +456,7 @@ section.contact{text-align:center}
 section.contact h2 {
     font-family:'Homemade Apple', cursive;
     margin-top:3rem; 
-    color: #fcfdfd;
+    color: #39ff14;
     font-size: 50px;
 }
 
@@ -552,7 +549,7 @@ footer a:hover{
 }
 
 .bg-primary{
-    background:linear-gradient(#000, #8c52ff)
+    background:linear-gradient(#000, #222)
 }
 
 .text-primary{
@@ -910,8 +907,8 @@ footer a:hover{
         font-family: Lato,Helvetica,Arial,sans-serif;
         letter-spacing: 2px;
         text-transform: uppercase;
-        background-color: #fff;
-        color: #39ff14;
+        color: #fff;
+        background-color: #39ff14;
         font-weight: 800;
     }
 
